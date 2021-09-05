@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="Completed Homework 1.">
+    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="Revised the explanation. Completed Homework 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630215063084</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revised the explanation. Completed Homework 1.">
+      <created>1630216799766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630216799766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +78,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing commit and push" />
     <MESSAGE value="Completed Homework 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Homework 1." />
+    <MESSAGE value="Revised the explanation. Completed Homework 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revised the explanation. Completed Homework 1." />
   </component>
 </project>
