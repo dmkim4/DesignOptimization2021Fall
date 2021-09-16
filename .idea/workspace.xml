@@ -110,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631682812000</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed most of coding for 2">
+      <created>1631774264750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631774264750</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed log error for 2">
+      <created>1631774445557</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631774445557</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +151,8 @@
     <MESSAGE value="Revised the explanation. Completed Homework 1." />
     <MESSAGE value="Pulled the sample code for HW 2" />
     <MESSAGE value="Modified the sample code to work with a 2 dimensional case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified the sample code to work with a 2 dimensional case" />
+    <MESSAGE value="Completed most of coding for 2" />
+    <MESSAGE value="Fixed log error for 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed log error for 2" />
   </component>
 </project>
