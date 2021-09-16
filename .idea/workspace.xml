@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="" />
+    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 2.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631775964002</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added images">
+      <created>1631776245275</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631776245275</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Attempted to fix images">
+      <created>1631776349633</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631776349633</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +175,8 @@
     <MESSAGE value="Completed most of coding for 2" />
     <MESSAGE value="Fixed log error for 2" />
     <MESSAGE value="Added Sketches" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sketches" />
+    <MESSAGE value="Added images" />
+    <MESSAGE value="Attempted to fix images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to fix images" />
   </component>
 </project>
