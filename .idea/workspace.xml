@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 2.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631774445557</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Sketches">
+      <created>1631775964002</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631775964002</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +157,7 @@
     <MESSAGE value="Modified the sample code to work with a 2 dimensional case" />
     <MESSAGE value="Completed most of coding for 2" />
     <MESSAGE value="Fixed log error for 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed log error for 2" />
+    <MESSAGE value="Added Sketches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sketches" />
   </component>
 </project>
