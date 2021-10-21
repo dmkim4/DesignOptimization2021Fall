@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework 3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 3.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Project 1 gradient based algorithms and differentiable programming.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project 1 gradient based algorithms and differentiable programming.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634278743152</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Implemented drag with arbitrary drag constant value">
+      <created>1634783930179</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1634783930179</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +239,7 @@
     <MESSAGE value="Completed on problem 1" />
     <MESSAGE value="Completed Homework 3" />
     <MESSAGE value="Added plots and explanations for Problem 2. Homework 3 completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plots and explanations for Problem 2. Homework 3 completed." />
+    <MESSAGE value="Implemented drag with arbitrary drag constant value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented drag with arbitrary drag constant value" />
   </component>
 </project>
