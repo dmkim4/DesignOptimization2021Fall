@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Homework/Homework 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636433108616</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Completed Problem 2">
+      <created>1636437111394</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1636437111394</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Upload pictures">
+      <created>1636441152648</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1636441152648</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +286,8 @@
     <MESSAGE value="Problem formulation documentation complete" />
     <MESSAGE value="Homework 4 Problem 1 Complete" />
     <MESSAGE value="Accidentally wrote over my Project 1. Retrieved the previous Jupyter Notebook." />
-    <option name="LAST_COMMIT_MESSAGE" value="Accidentally wrote over my Project 1. Retrieved the previous Jupyter Notebook." />
+    <MESSAGE value="Completed Problem 2" />
+    <MESSAGE value="Upload pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload pictures" />
   </component>
 </project>
