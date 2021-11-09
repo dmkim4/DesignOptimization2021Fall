@@ -1,0 +1,72 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"90befb2b-d06c-4fc3-94db-3ebf443ded38\" name=\"Changes\" comment=\"Modified the sample code to work with a 2 dimensional case\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1xNk7XuDczfQgbCiS2iSseETkjd\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"90befb2b-d06c-4fc3-94db-3ebf443ded38\" name=\"Changes\" comment=\"\" />\r\n      <created>1630202770842</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1630202770842</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Testing commit and push\">\r\n      <created>1630205235427</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630205235428</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Testing commit and push\">\r\n      <created>1630206449731</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630206449731</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Completed Homework 1.\">\r\n      <created>1630215063084</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630215063084</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Revised the explanation. Completed Homework 1.\">\r\n      <created>1630216799766</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630216799766</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Revised the explanation. Completed Homework 1.\">\r\n      <created>1630867900575</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630867900575</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Pulled the sample code for HW 2\">\r\n      <created>1631670530506</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631670530506</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Pulled the sample code for HW 2\">\r\n      <created>1631670617406</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631670617407</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Pulled the sample code for HW 2\">\r\n      <created>1631672933023</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631672933023</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Modified the sample code to work with a 2 dimensional case\">\r\n      <created>1631678154023</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631678154023</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Modified the sample code to work with a 2 dimensional case\">\r\n      <created>1631678443414</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631678443414</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"11\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"false\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Testing commit and push\" />\r\n    <MESSAGE value=\"Completed Homework 1.\" />\r\n    <MESSAGE value=\"Revised the explanation. Completed Homework 1.\" />\r\n    <MESSAGE value=\"Pulled the sample code for HW 2\" />\r\n    <MESSAGE value=\"Modified the sample code to work with a 2 dimensional case\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Modified the sample code to work with a 2 dimensional case\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,7 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="Modified the sample code to work with a 2 dimensional case" />
++    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="Modified the sample code to work with a 2 dimensional case">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -20,6 +22,7 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -100,7 +103,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1631678443414</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="Modified the sample code to work with a 2 dimensional case">
++      <created>1631678634046</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1631678634046</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Modified the sample code to work with a 2 dimensional case">
++      <created>1631678882696</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1631678882696</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -111,7 +128,18 @@
+             <State>
+               <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                 <map>
+-                  <entry key="Show.Git.Branches" value="false" />
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
+                 </map>
+               </option>
+             </State>

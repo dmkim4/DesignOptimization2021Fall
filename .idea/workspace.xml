@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework 4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636441152648</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Completed Problem 3">
+      <created>1636442070565</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1636442070565</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +295,7 @@
     <MESSAGE value="Accidentally wrote over my Project 1. Retrieved the previous Jupyter Notebook." />
     <MESSAGE value="Completed Problem 2" />
     <MESSAGE value="Upload pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload pictures" />
+    <MESSAGE value="Completed Problem 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Problem 3" />
   </component>
 </project>
