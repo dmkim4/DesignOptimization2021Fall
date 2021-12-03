@@ -1,0 +1,53 @@
+__________________________________________________________________________________________________________________________________
+                                                          P4                                                                      
+__________________________________________________________________________________________________________________________________
+Generation 12
+
+Rank = 1 ,  Ensemble Genome , 3 Members :
+ member 0, weight = 0.33648,  Kriging, Kernel Type = Matern 5/2, Kernel Variation Type = Anisotropic, Regression Type = Constant
+ member 1, weight = 0.34861,  Kriging, Kernel Type = Gaussian, Kernel Variation Type = Anisotropic, Regression Type = Full Quadratic
+ member 2, weight = 0.31491,  Kriging, Kernel Type = Bessel, Kernel Variation Type = Anisotropic, Regression Type = Full Quadratic
+ GOFs: RMSE = 0.00014184, PRESS_RMSE = 9.58201, PRESS_R2 = 0.997554, PRESS_RMAE = 0.0942844, PRESS_RAAE = 0.041783
+
+
+
+__________________________________________________________________________________________________________________________________
+                                                          P5                                                                      
+__________________________________________________________________________________________________________________________________
+Generation 12
+
+Rank = 1 ,  Ensemble Genome , 5 Members :
+ member 0, weight = 0.22021,  Kriging, Kernel Type = Gaussian, Kernel Variation Type = Anisotropic, Regression Type = Full Quadratic
+ member 1, weight = 0.23148,  Kriging, Kernel Type = Gaussian, Kernel Variation Type = Anisotropic, Regression Type = Pure Quadratic
+ member 2, weight = 0.20165,  Kriging, Kernel Type = Thin Plate Spline, Kernel Variation Type = Anisotropic, Regression Type = Linear
+ member 3, weight = 0.23439,  Kriging, Kernel Type = Gaussian, Kernel Variation Type = Anisotropic, Regression Type = Constant
+ member 4, weight = 0.11227, Polynomial Regression, Polynomial Type = Full Quadratic, Output Transformation Type = Yeo-Johnson, Confidence Level = 0.05
+ GOFs: RMSE = 135072, PRESS_RMSE = 944910, PRESS_R2 = 0.962932, PRESS_RMAE = 0.701008, PRESS_RAAE = 0.125957
+
+
+
+__________________________________________________________________________________________________________________________________
+                                                          P6                                                                      
+__________________________________________________________________________________________________________________________________
+Generation 12
+
+Rank = 1 ,  Ensemble Genome , 4 Members :
+ member 0, weight = 0.12047, Support Vector Regression, Epsilon Value = 0.157743, Support Vector Kernel Type = Gaussian, Loss Function Type = Laplace
+ member 1, weight = 0.25423,  Kriging, Kernel Type = Damped Sin, Kernel Variation Type = Anisotropic, Regression Type = Pure Quadratic
+ member 2, weight = 0.27487, Polynomial Regression, Polynomial Type = Pure Quadratic, Output Transformation Type = Box-Cox, Confidence Level = 0.05
+ member 3, weight = 0.35043, Polynomial Regression, Polynomial Type = Full Quadratic, Output Transformation Type = Yeo-Johnson, Confidence Level = 0.05
+ GOFs: RMSE = 1.24542, PRESS_RMSE = 2.04457, PRESS_R2 = 0.992977, PRESS_RMAE = 0.213912, PRESS_RAAE = 0.0641015
+
+
+
+__________________________________________________________________________________________________________________________________
+                                                          P7                                                                      
+__________________________________________________________________________________________________________________________________
+Generation 12
+
+Rank = 1 , Kriging
+ member 0, weight = 1, Kriging, Kernel Type = Bessel, Kernel Variation Type = Anisotropic, Regression Type = Full Quadratic
+ GOFs: RMSE = 1.34225e-09, PRESS_RMSE = 1.72105e-07, PRESS_R2 = 1, PRESS_RMAE = 0.00266856, PRESS_RAAE = 0.000346118
+
+
+

@@ -1,0 +1,20 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+Refresh()
+system2 = GetSystem(Name="RSR")
+responseSurface1 = system2.GetContainer(ComponentName="Response Surface")
+responseSurfaceModel1 = responseSurface1.GetModel()
+responseSurfaceModel1.FittingType = "FITTINGTYPE_MARS"
+responseSurfaceModel1.GenerateVerificationPoints = True
+responseSurfaceModel1.NumberVerificationPoints = 4
+responseSurfaceComponent1 = system2.GetComponent(Name="Response Surface")
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.NumberVerificationPoints = 2
+responseSurfaceComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
+geometry1.Exit()
+Save(Overwrite=True)
