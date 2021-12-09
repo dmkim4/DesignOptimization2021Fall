@@ -1,0 +1,476 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="RSR")
+responseSurface1 = system1.GetContainer(ComponentName="Response Surface")
+responseSurfaceModel1 = responseSurface1.GetModel()
+parametricTable1 = responseSurfaceModel1.GetParametricTable(Name="DesignPoints")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=0,
+    Value="24.775194573448971 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=1,
+    Value="136.97053646249697 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=2,
+    Value="89.226380816660821 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=7,
+    ColumnIndex=0,
+    Value="20.206527268746868 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=7,
+    ColumnIndex=1,
+    Value="159.92324933921918 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=7,
+    ColumnIndex=2,
+    Value="66.357215655036271 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=8,
+    ColumnIndex=0,
+    Value="18.994370700092986 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=8,
+    ColumnIndex=1,
+    Value="124.36414117598906 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=8,
+    ColumnIndex=2,
+    Value="79.853180858306587 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=0,
+    Value="20.206527268746868 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=1,
+    Value="159.92324933921918 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=2,
+    Value="66.357215655036271 [mm]")
+responseSurfaceModel1.NumberVerificationPoints = 14
+responseSurfaceComponent1 = system1.GetComponent(Name="Response Surface")
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=0,
+    Value="24.947333940071985 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=1,
+    Value="140.59920862643048 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=9,
+    ColumnIndex=2,
+    Value="70.241272780112922 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=10,
+    ColumnIndex=0,
+    Value="24.943042449885979 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=10,
+    ColumnIndex=1,
+    Value="159.09716438455507 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=10,
+    ColumnIndex=2,
+    Value="66.2457644334063 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=11,
+    ColumnIndex=0,
+    Value="15.042021305998787 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=11,
+    ColumnIndex=1,
+    Value="158.72478434676304 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=11,
+    ColumnIndex=2,
+    Value="75.080619432963431 [mm]")
+responseSurfaceModel1.NumberVerificationPoints = 17
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=12,
+    ColumnIndex=0,
+    Value="21.937899444019422 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=12,
+    ColumnIndex=1,
+    Value="145.14643751597032 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=12,
+    ColumnIndex=2,
+    Value="89.9165917346254 [mm]")
+responseSurfaceModel1.NumberVerificationPoints = 18
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=13,
+    ColumnIndex=0,
+    Value="16.177320516435429 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=13,
+    ColumnIndex=1,
+    Value="124.59066908294335 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=13,
+    ColumnIndex=2,
+    Value="66.780187991447747 [mm]")
+responseSurfaceModel1.NumberVerificationPoints = 19
+responseSurfaceComponent1.Update(AllDependencies=True)
+chart1 = responseSurfaceModel1.GetChart(Name="LocalSensitivityCurves")
+outputParameter1 = responseSurfaceModel1.GetParameter(Name="P5")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+responsePoint1 = responseSurfaceModel1.GetResponsePoint(Name="ResponsePoint")
+inputParameter1 = responseSurfaceModel1.GetParameter(Name="P1")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="15.1 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="24.4 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="22.6 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="21.1 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="19.9 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="16.9 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="20 [mm]")
+outputParameter2 = responseSurfaceModel1.GetParameter(Name="P4")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+outputParameter3 = responseSurfaceModel1.GetParameter(Name="P6")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="18.3 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="16 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="15 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="20 [mm]")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+outputParameter4 = responseSurfaceModel1.GetParameter(Name="P7")
+chart1.AssociateParameterToAxis(
+    Parameter=outputParameter4,
+    Axis="YAxis")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="16.4 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="17.9 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="19.7 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="25 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="21.5 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="17 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="16.6 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="19.9 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="20 [mm]")
+chart2 = responseSurfaceModel1.GetChart(Name="Response")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter4,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter4,
+    Axis="YAxis")
+inputParameter2 = responseSurfaceModel1.GetParameter(Name="P2")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter2,
+    Axis="XAxis")
+inputParameter3 = responseSurfaceModel1.GetParameter(Name="P3")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter3,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter1,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter2,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter3,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter1,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter2,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=inputParameter3,
+    Axis="XAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter2,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter1,
+    Axis="YAxis")
+chart2.AssociateParameterToAxis(
+    Parameter=outputParameter3,
+    Axis="YAxis")
+template1 = GetTemplate(TemplateName="Response Surface Optimization")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system2.Delete()
+template2 = GetTemplate(TemplateName="Direct Optimization")
+system3 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+optimizationComponent1 = system3.GetComponent(Name="Optimization")
+responseSurfaceComponent1.TransferSpecificData(
+    TransferDataName="DesignPointsDataTransfer",
+    TargetComponent=optimizationComponent1)
+designofExperimentComponent1 = system1.GetComponent(Name="Design of Experiment")
+designofExperimentComponent1.TransferSpecificData(
+    TransferDataName="DesignPointsDataTransfer",
+    TargetComponent=optimizationComponent1)
+optimization1 = system3.GetContainer(ComponentName="Optimization")
+optimizationModel1 = optimization1.GetModel()
+optimizationModel1.MethodSelection = "OMS_Manual"
+optimizationModel1.MethodName = "ANSYS_MOGA"
+optimizationComponent1.Update(AllDependencies=True)
+outputParameter5 = optimizationModel1.GetParameter(Name="P4")
+optimizationCriterion1 = outputParameter5.CreateOptimizationCriterion()
+outputParameter6 = optimizationModel1.GetParameter(Name="P6")
+optimizationCriterion2 = outputParameter6.CreateOptimizationCriterion()
+outputParameter7 = optimizationModel1.GetParameter(Name="P5")
+optimizationCriterion3 = outputParameter7.CreateOptimizationCriterion()
+optimizationModel1.DeleteOptimizationCriteria(OptimizationCriteria=[optimizationCriterion2])
+optimizationCriterion4 = outputParameter6.CreateOptimizationCriterion()
+outputParameter8 = optimizationModel1.GetParameter(Name="P7")
+optimizationCriterion5 = outputParameter8.CreateOptimizationCriterion()
+optimizationCriterion5.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion4.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion3.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion1.ObjectiveType = "GT_MaximumPossible"
+optimizationCriterion3.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion3.ConstraintFirstValue = 14000000
+optimizationCriterion1.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion1.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion1.ConstraintFirstValue = 1200
+optimizationCriterion4.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion4.ConstraintFirstValue = 400
+optimizationModel1.DeleteOptimizationCriteria(OptimizationCriteria=[optimizationCriterion1])
+optimizationCriterion6 = outputParameter5.CreateOptimizationCriterion()
+optimizationCriterion6.ObjectiveType = "GT_MaximumPossible"
+optimizationCriterion6.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion6.ConstraintFirstValue = 1200
+optimizationCriterion6.ConstraintType = "CT_NoPreference"
+optimizationCriterion6.ObjectiveTargetValue = 1200
+optimizationCriterion6.ObjectiveTargetValue = 0
+optimizationComponent1.Update(AllDependencies=True)
+system3.Delete()
+system4 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+designofExperimentComponent2 = system4.GetComponent(Name="Design of Experiment")
+designofExperimentComponent2.ReplaceWithShare(
+    TargetSystem=system4,
+    ComponentToShare=designofExperimentComponent1,
+    SourceSystem=system1)
+responseSurfaceComponent2 = system4.GetComponent(Name="Response Surface")
+responseSurfaceComponent2.ReplaceWithShare(
+    TargetSystem=system4,
+    ComponentToShare=responseSurfaceComponent1,
+    SourceSystem=system1)
+optimization2 = system4.GetContainer(ComponentName="Optimization")
+optimizationModel2 = optimization2.GetModel()
+optimizationModel2.MethodSelection = "OMS_Manual"
+optimizationModel2.MethodName = "ANSYS_MOGA"
+outputParameter9 = optimizationModel2.GetParameter(Name="P4")
+optimizationCriterion7 = outputParameter9.CreateOptimizationCriterion()
+outputParameter10 = optimizationModel2.GetParameter(Name="P5")
+optimizationCriterion8 = outputParameter10.CreateOptimizationCriterion()
+outputParameter11 = optimizationModel2.GetParameter(Name="P6")
+optimizationCriterion9 = outputParameter11.CreateOptimizationCriterion()
+outputParameter12 = optimizationModel2.GetParameter(Name="P7")
+optimizationCriterion10 = outputParameter12.CreateOptimizationCriterion()
+optimizationCriterion7.ObjectiveType = "GT_MaximumPossible"
+optimizationCriterion8.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion9.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion10.ObjectiveType = "GT_MinimumPossible"
+optimizationCriterion7.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion7.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ConstraintFirstValue = 1100
+optimizationCriterion7.ConstraintFirstValue = 900
+optimizationCriterion7.ConstraintFirstValue = 1600
+optimizationCriterion7.ConstraintFirstValue = 2
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion7.ConstraintFirstValue = -1200
+optimizationCriterion7.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion7.ObjectiveTargetValue = 0
+optimizationCriterion8.ObjectiveTargetValue = 0
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ConstraintType = "CT_NoPreference"
+optimizationCriterion8.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion9.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion8.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion8.ConstraintFirstValue = 14000000
+optimizationCriterion9.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion9.ConstraintFirstValue = 400
+optimizationCriterion7.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion7.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion7.ConstraintType = "CT_NearTarget"
+optimizationCriterion7.ConstraintFirstValue = -1200
+optimizationCriterion7.ConstraintType = "CT_InsideBounds"
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ConstraintSecondValue = 1500
+optimizationCriterion7.ConstraintFirstValue = -1200
+optimizationCriterion7.ObjectiveTargetValue = 1500
+optimizationCriterion7.ConstraintType = "CT_GreaterThanTarget"
+optimizationCriterion7.ConstraintFirstValue = 1500
+optimizationCriterion8.ObjectiveTargetValue = 14000000
+optimizationCriterion9.ObjectiveTargetValue = 400
+optimizationCriterion7.ConstraintFirstValue = 1200
+optimizationCriterion7.ObjectiveTargetValue = 1200
+optimizationComponent2 = system4.GetComponent(Name="Optimization")
+optimizationComponent2.Update(AllDependencies=True)
+Save(Overwrite=True)
+customCandidatePoint1 = optimizationModel2.CreateCustomCandidatePoint(DisplayText="Initial Design")
+inputParameter4 = optimizationModel2.GetParameter(Name="P1")
+customCandidatePoint1.SetParameter(
+    Parameter=inputParameter4,
+    Expression="25 [mm]")
+inputParameter5 = optimizationModel2.GetParameter(Name="P2")
+customCandidatePoint1.SetParameter(
+    Parameter=inputParameter5,
+    Expression="125 [mm]")
+inputParameter6 = optimizationModel2.GetParameter(Name="P3")
+customCandidatePoint1.SetParameter(
+    Parameter=inputParameter6,
+    Expression="75 [mm]")
+optimizationModel2.SetVariationReferencePoint(
+    Point=customCandidatePoint1,
+    Source="ResponseSurface")
+Save(Overwrite=True)
+responsePoint1.SetParameter(
+    Parameter=inputParameter1,
+    Expression="17 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter2,
+    Expression="124 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter3,
+    Expression="77.04 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter3,
+    Expression="84.960000000000008 [mm]")
+responsePoint1.SetParameter(
+    Parameter=inputParameter3,
+    Expression="85.44 [mm]")
+candidatePoint1 = optimizationModel2.GetCandidatePoint(Name="CandidatePoint")
+outputValues1 = candidatePoint1.Update()
+parametricTable2 = responseSurfaceModel1.GetParametricTable(Name="VerificationPoints")
+parametricTable2.AddRow()
+parametricTable2.SetCellValue(
+    RowIndex=19,
+    ColumnIndex=0,
+    Value="16.947223069128068 [mm]")
+parametricTable2.SetCellValue(
+    RowIndex=19,
+    ColumnIndex=1,
+    Value="124.12471961524314 [mm]")
+parametricTable2.SetCellValue(
+    RowIndex=19,
+    ColumnIndex=2,
+    Value="84.547690134482536 [mm]")
+parametricTable2.AddRow()
+parametricTable2.SetCellValue(
+    RowIndex=20,
+    ColumnIndex=0,
+    Value="18.112535751834393 [mm]")
+parametricTable2.SetCellValue(
+    RowIndex=20,
+    ColumnIndex=1,
+    Value="124.15062813379062 [mm]")
+parametricTable2.SetCellValue(
+    RowIndex=20,
+    ColumnIndex=2,
+    Value="85.798682496554662 [mm]")
+candidatePoint2 = optimizationModel2.GetCandidatePoint(Name="CandidatePoint 1")
+outputValues2 = candidatePoint2.Update()
+candidatePoint3 = optimizationModel2.GetCandidatePoint(Name="CandidatePoint 2")
+outputValues3 = candidatePoint3.Update()
+Save(Overwrite=True)

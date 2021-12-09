@@ -1,0 +1,40 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="SYS 2")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+system2 = GetSystem(Name="SYS 1")
+model2 = system2.GetContainer(ComponentName="Model")
+model2.Edit()
+system3 = GetSystem(Name="SYS")
+geometry1 = system3.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+template1 = GetTemplate(TemplateName="Response Surface")
+system4 = template1.CreateSystem()
+designofExperiment1 = system4.GetContainer(ComponentName="Design of Experiment")
+dOEModel1 = designofExperiment1.GetModel()
+dOEModel1.MethodName = "ANSYS_OSFD"
+dOEModel1.MethodName = "ANSYS_LHS"
+dOEModel1.MethodName = "ANSYS_OSFD"
+oSFDMethod1 = dOEModel1.Method
+oSFDMethod1.OSFDType = "SFDTYPE_CL2"
+oSFDMethod1.OSFDType = "SFDTYPE_MAXENT"
+inputParameter1 = dOEModel1.GetParameter(Name="P2")
+inputParameter1.LowerBound = 122.5
+inputParameter1.UpperBound = 142.5
+model2.Exit()
+model1.Exit()
+model3 = system3.GetContainer(ComponentName="Model")
+model3.Edit()
+designofExperimentComponent1 = system4.GetComponent(Name="Design of Experiment")
+designofExperimentComponent1.Refresh()
+dOEModel1.MethodName = "ANSYS_LHS"
+model3.Edit()
+designPointsTable1 = dOEModel1.PreviewDesignPoints()
+dOEModel1.MethodName = "ANSYS_OSFD"
+dOEModel1.MethodName = "ANSYS_LHS"
+designPointsTable2 = dOEModel1.PreviewDesignPoints()
+designofExperimentComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
+Save(Overwrite=True)

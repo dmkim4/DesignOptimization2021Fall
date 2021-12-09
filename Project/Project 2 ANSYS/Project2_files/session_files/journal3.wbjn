@@ -1,0 +1,23 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+system2 = GetSystem(Name="RSR")
+designofExperiment1 = system2.GetContainer(ComponentName="Design of Experiment")
+dOEModel1 = designofExperiment1.GetModel()
+inputParameter1 = dOEModel1.GetParameter(Name="P1")
+inputParameter1.LowerBound = 15
+inputParameter1.UpperBound = 25
+inputParameter2 = dOEModel1.GetParameter(Name="P2")
+inputParameter2.LowerBound = 124
+inputParameter2.UpperBound = 160
+inputParameter3 = dOEModel1.GetParameter(Name="P3")
+inputParameter3.LowerBound = 66
+inputParameter3.UpperBound = 90
+designofExperimentComponent1 = system2.GetComponent(Name="Design of Experiment")
+designofExperimentComponent1.Update(AllDependencies=True)
+model1.Edit()
+designofExperimentComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)

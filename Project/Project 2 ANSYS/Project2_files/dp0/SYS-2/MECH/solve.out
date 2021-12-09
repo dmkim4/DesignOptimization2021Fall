@@ -1,0 +1,1402 @@
+
+ Ansys Mechanical Enterprise Academic Student      
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2021 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2021 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2021 R2 
+     
+ Point Releases and Patches installed:   
+     
+ Academic Student 2021 R2
+ Aqwa 2021 R2
+ EnSight 2021 R2 
+ FENSAP-ICE 2021 R2  
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\_ProjectScratch\ScrC498\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\_ProjectScratch\ScrC498\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2021 R2              BUILD= 21.2      UP20210601   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  20:08:08  NOV 17, 2021 CP=      0.250
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.297   TIME= 20:08:08
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.1355556    
+
+ TITLE= 
+ Project2--Transient Thermal (E5)                                              
+
+  ACT Extensions:
+      LSDYNA, 2021.1
+      5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+  
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\_ProjectScratch\ScrC498\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\Project2_files\dp0\SYS-2\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\Project2_files\user_files\
+ --- Data in consistent MKS units. See Solving Units in the help system for more
+
+ MKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH        (l)  = METER (M)
+  MASS          (M)  = KILOGRAM (KG)
+  TIME          (t)  = SECOND (SEC)
+  TEMPERATURE   (T)  = CELSIUS (C)
+  TOFFSET            = 273.0
+  CHARGE        (Q)  = COULOMB
+  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
+  HEAT               = JOULE (N-M)
+
+  PRESSURE           = PASCAL (NEWTON/M**2)
+  ENERGY        (W)  = JOULE (N-M)
+  POWER         (P)  = WATT (N-M/SEC)
+  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
+  CAPACITANCE   (C)  = FARAD
+  INDUCTANCE    (L)  = HENRY
+  MAGNETIC FLUX      = WEBER
+  RESISTANCE    (R)  = OHM
+  ELECTRIC POTENTIAL = VOLT
+
+ INPUT  UNITS ARE ALSO SET TO MKS 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:09  NOV 17, 2021 CP=      0.297
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 "Solid" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Send Materials ***********
+ *********** Create "Heat Flux" ***********
+ *********** Create "Heat Flux 2" ***********
+ *********** Create "Convection" ***********
+ ***************** Define Uniform Initial temperature ***************
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.391
+
+
+ --- Number of total nodes = 5914
+ --- Number of contact elements = 2142
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 3026
+ --- Number of condensed parts = 0
+ --- Number of total elements = 5168
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.1358333    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A TRANSIENT ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ STEP BOUNDARY CONDITION KEY= 1
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ Use Quasi-Linear Thermal Transient Solution
+   Tolerance for Reform of Thermal Matrix=     0.050
+   ***** Fast Property Table Information *****
+    Number of entries per property=    64
+    Minimum temperature =      0.00
+    Maximum temperature =   1000.00
+  Enable multipass algorithm
+
+ *** WARNING ***                         CP =       0.391   TIME= 20:08:09
+ Temperature-dependent properties have not been specified.  The          
+ THOPT,QUASI option does not perform equilibrium iterations.  Small      
+ time steps may be required to obtain accurate results.                  
+
+ NLHIST: ADDED NODAL RESULTS HISTORY FOR:
+       NAME = MAX_TEMP                        
+  ITEM/COMP = TEMPMAX 
+       NODE =         0
+
+ NLHIST: ADDED NODAL RESULTS HISTORY FOR:
+       NAME = MIN_TEMP                        
+  ITEM/COMP = TEMPMIN 
+       NODE =         0
+ ********* Initial Time Increment Check And Fourier Modulus *********
+  Specified Initial Time Increment: 0.01
+  Estimated Increment Needed, le*le/alpha, Body 1: 2.95184
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 5 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         2 TO          2 STEP          1
+
+        199  ELEMENTS (OF       5168  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+        533 NODES (OF       5914  DEFINED) SELECTED FROM
+      199 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUE =   1539500.00    
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =        199
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         3 TO          3 STEP          1
+
+        199  ELEMENTS (OF       5168  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+        533 NODES (OF       5914  DEFINED) SELECTED FROM
+      199 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUE =   1539500.00    
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =        199
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       5914 STEP          1
+
+       5914  NODES (OF       5914  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO       6912 STEP          1
+
+       5168  ELEMENTS (OF       5168  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         4 TO          4 STEP          1
+
+       1744  ELEMENTS (OF       5168  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+       3480 NODES (OF       5914  DEFINED) SELECTED FROM
+     1744 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUES=  5.00000000      35.0000000    
+
+ NUMBER OF CONV ELEMENT FACE LOADS STORED =       1744
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       5914 STEP          1
+
+       5914  NODES (OF       5914  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO       6912 STEP          1
+
+       5168  ELEMENTS (OF       5168  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ PRINTOUT RESUMED BY /GOP
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       0.484   TIME= 20:08:09
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 2 processes per solution.                     
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       0.484   TIME= 20:08:09
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       0.516   TIME= 20:08:09
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:09  NOV 17, 2021 CP=      0.516
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .TRANSIENT            
+      SOLUTION METHOD. . . . . . . . . . . . . . .QUASI                
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       0.516   TIME= 20:08:09
+ Material number 2 (used by element 4771) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       0.547   TIME= 20:08:09
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** NOTE ***                            CP =       0.547   TIME= 20:08:09
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 5168
+  ...Number of nodes:    5914
+  ...Decompose to 2 CPU domains
+  ...Element load balance ratio =     1.001
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+
+
+
+            **** CENTER OF MASS, MASS, AND MASS MOMENTS OF INERTIA ****
+
+  CALCULATIONS ASSUME ELEMENT MASS AT ELEMENT CENTROID
+
+  TOTAL MASS =   7.1761    
+
+                           MOM. OF INERTIA         MOM. OF INERTIA
+  CENTER OF MASS            ABOUT ORIGIN        ABOUT CENTER OF MASS
+
+  XC = -0.48997E-06      IXX =   0.3838E-01      IXX =   0.3505E-01
+  YC =  0.21534E-01      IYY =   0.6634E-01      IYY =   0.6634E-01
+  ZC =  0.12695E-05      IZZ =   0.3838E-01      IZZ =   0.3506E-01
+                         IXY =   0.3140E-06      IXY =   0.2383E-06
+                         IYZ =   0.1854E-05      IYZ =   0.2050E-05
+                         IZX =  -0.1200E-06      IZX =  -0.1200E-06
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1   7.17606    
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 4.40445182 at element 3025.                                   
+ Minimum = 1.043336287E-05 at element 5773.                              
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3026  SOLID291      0.078   0.000026
+        2       199  SURF152       0.016   0.000079
+        3       199  SURF152       0.000   0.000000
+        4      1744  SURF152       0.062   0.000036
+ Time at end of element matrix formulation CP = 0.828125.                
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =        5914,    Maximum wavefront =     81
+
+  Local memory allocated for solver              =      4.780 MB
+  Local memory required for in-core solution     =      4.599 MB
+  Local memory required for out-of-core solution =      2.853 MB
+
+  Total memory allocated for solver              =      9.294 MB
+  Total memory required for in-core solution     =      8.942 MB
+  Total memory required for out-of-core solution =      5.549 MB
+
+ *** NOTE ***                            CP =       0.953   TIME= 20:08:09
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+ Distributed sparse solver maximum pivot= 108.446308 at node 1268 TEMP.  
+ Distributed sparse solver minimum pivot= 0.313464469 at node 289 TEMP.  
+ Distributed sparse solver minimum pivot in absolute value= 0.313464469  
+ at node 289 TEMP.                                                       
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3026  SOLID291      0.062   0.000021
+        2       199  SURF152       0.000   0.000000
+        3       199  SURF152       0.016   0.000079
+        4      1744  SURF152       0.031   0.000018
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      3026  SOLID291      0.016   0.000005
+        2       199  SURF152       0.000   0.000000
+        3       199  SURF152       0.000   0.000000
+        4      1744  SURF152       0.000   0.000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =  0.100000E-01     TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  60.72       OSCILLATION LIMIT = 0.6072    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.82340E-02  DECREASED (FACTOR = 0.8234)
+
+ *** LOAD STEP     1   SUBSTEP     2  COMPLETED.    CUM ITER =      2
+ *** TIME =  0.182340E-01     TIME INC =  0.823396E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  16.75       OSCILLATION LIMIT = 0.1379    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.82340E-02  UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     3  COMPLETED.    CUM ITER =      3
+ *** TIME =  0.264679E-01     TIME INC =  0.823396E-02  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  11.72       OSCILLATION LIMIT = 0.9654E-01
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.24702E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     1   SUBSTEP     4  COMPLETED.    CUM ITER =      4
+ *** TIME =  0.511698E-01     TIME INC =  0.247019E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  6.829       OSCILLATION LIMIT = 0.1687    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.73221E-01  INCREASED (FACTOR = 2.9642)
+
+ *** LOAD STEP     1   SUBSTEP     5  COMPLETED.    CUM ITER =      5
+ *** TIME =  0.124390         TIME INC =  0.732207E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  2.966       OSCILLATION LIMIT = 0.2171    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.3657)
+
+ *** LOAD STEP     1   SUBSTEP     6  COMPLETED.    CUM ITER =      6
+ *** TIME =  0.224390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE =  1.462       OSCILLATION LIMIT = 0.1462    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     7  COMPLETED.    CUM ITER =      7
+ *** TIME =  0.324390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.9795       OSCILLATION LIMIT = 0.9795E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     8  COMPLETED.    CUM ITER =      8
+ *** TIME =  0.424390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.7730       OSCILLATION LIMIT = 0.7730E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP     9  COMPLETED.    CUM ITER =      9
+ *** TIME =  0.524390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.6473       OSCILLATION LIMIT = 0.6473E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP    10  COMPLETED.    CUM ITER =     10
+ *** TIME =  0.624390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.5506       OSCILLATION LIMIT = 0.5506E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP    11  COMPLETED.    CUM ITER =     11
+ *** TIME =  0.724390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.4687       OSCILLATION LIMIT = 0.4687E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP    12  COMPLETED.    CUM ITER =     12
+ *** TIME =  0.824390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3972       OSCILLATION LIMIT = 0.3972E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     1   SUBSTEP    13  COMPLETED.    CUM ITER =     13
+ *** TIME =  0.924390         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3349       OSCILLATION LIMIT = 0.3349E-01
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.75610E-01  DECREASED (FACTOR = 0.7561)
+
+ *** LOAD STEP     1   SUBSTEP    14  COMPLETED.    CUM ITER =     14
+ *** TIME =   1.00000         TIME INC =  0.756096E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2928       OSCILLATION LIMIT = 0.2214E-01
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.250 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+        0.812 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        6.375 MB WRITTEN ON RESULTS FILE: file0.rth
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 2 OF 5 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  2.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       2.422   TIME= 20:08:11
+ Material number 2 (used by element 4771) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       2.438   TIME= 20:08:11
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:11  NOV 17, 2021 CP=      2.438
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     2
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  2.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     2   SUBSTEP     1  COMPLETED.    CUM ITER =     15
+ *** TIME =   1.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2874       OSCILLATION LIMIT = 0.2874E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000E-01  UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     2  COMPLETED.    CUM ITER =     16
+ *** TIME =   1.02000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2820       OSCILLATION LIMIT = 0.2820E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     2   SUBSTEP     3  COMPLETED.    CUM ITER =     17
+ *** TIME =   1.05000         TIME INC =  0.300000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2667       OSCILLATION LIMIT = 0.8002E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.90000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     2   SUBSTEP     4  COMPLETED.    CUM ITER =     18
+ *** TIME =   1.14000         TIME INC =  0.900000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2267       OSCILLATION LIMIT = 0.2040E-01
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.1111)
+
+ *** LOAD STEP     2   SUBSTEP     5  COMPLETED.    CUM ITER =     19
+ *** TIME =   1.24000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1891       OSCILLATION LIMIT = 0.1891E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     6  COMPLETED.    CUM ITER =     20
+ *** TIME =   1.34000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1577       OSCILLATION LIMIT = 0.1577E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     7  COMPLETED.    CUM ITER =     21
+ *** TIME =   1.44000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1316       OSCILLATION LIMIT = 0.1316E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     8  COMPLETED.    CUM ITER =     22
+ *** TIME =   1.54000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1101       OSCILLATION LIMIT = 0.1101E-01
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP     9  COMPLETED.    CUM ITER =     23
+ *** TIME =   1.64000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.9249E-01   OSCILLATION LIMIT = 0.9249E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    10  COMPLETED.    CUM ITER =     24
+ *** TIME =   1.74000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.7812E-01   OSCILLATION LIMIT = 0.7812E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    11  COMPLETED.    CUM ITER =     25
+ *** TIME =   1.84000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.6641E-01   OSCILLATION LIMIT = 0.6641E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     2   SUBSTEP    12  COMPLETED.    CUM ITER =     26
+ *** TIME =   1.94000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.5689E-01   OSCILLATION LIMIT = 0.5689E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.60000E-01  DECREASED (FACTOR = 0.6000)
+
+ *** LOAD STEP     2   SUBSTEP    13  COMPLETED.    CUM ITER =     27
+ *** TIME =   2.00000         TIME INC =  0.600000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.5196E-01   OSCILLATION LIMIT = 0.3117E-02
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 2 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 3 OF 5 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  3.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       4.000   TIME= 20:08:12
+ Material number 2 (used by element 4771) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       4.000   TIME= 20:08:12
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:12  NOV 17, 2021 CP=      4.016
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     3
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  3.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     3   SUBSTEP     1  COMPLETED.    CUM ITER =     28
+ *** TIME =   2.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.5117E-01   OSCILLATION LIMIT = 0.5117E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000E-01  UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     2  COMPLETED.    CUM ITER =     29
+ *** TIME =   2.02000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.5040E-01   OSCILLATION LIMIT = 0.5040E-03
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     3   SUBSTEP     3  COMPLETED.    CUM ITER =     30
+ *** TIME =   2.05000         TIME INC =  0.300000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.4822E-01   OSCILLATION LIMIT = 0.1447E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.90000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     3   SUBSTEP     4  COMPLETED.    CUM ITER =     31
+ *** TIME =   2.14000         TIME INC =  0.900000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.4263E-01   OSCILLATION LIMIT = 0.3837E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.1111)
+
+ *** LOAD STEP     3   SUBSTEP     5  COMPLETED.    CUM ITER =     32
+ *** TIME =   2.24000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3755E-01   OSCILLATION LIMIT = 0.3755E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     6  COMPLETED.    CUM ITER =     33
+ *** TIME =   2.34000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3340E-01   OSCILLATION LIMIT = 0.3340E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     7  COMPLETED.    CUM ITER =     34
+ *** TIME =   2.44000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.3000E-01   OSCILLATION LIMIT = 0.3000E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     8  COMPLETED.    CUM ITER =     35
+ *** TIME =   2.54000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2721E-01   OSCILLATION LIMIT = 0.2721E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP     9  COMPLETED.    CUM ITER =     36
+ *** TIME =   2.64000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2489E-01   OSCILLATION LIMIT = 0.2489E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    10  COMPLETED.    CUM ITER =     37
+ *** TIME =   2.74000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2297E-01   OSCILLATION LIMIT = 0.2297E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    11  COMPLETED.    CUM ITER =     38
+ *** TIME =   2.84000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2136E-01   OSCILLATION LIMIT = 0.2136E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     3   SUBSTEP    12  COMPLETED.    CUM ITER =     39
+ *** TIME =   2.94000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.2000E-01   OSCILLATION LIMIT = 0.2000E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.60000E-01  DECREASED (FACTOR = 0.6000)
+
+ *** LOAD STEP     3   SUBSTEP    13  COMPLETED.    CUM ITER =     40
+ *** TIME =   3.00000         TIME INC =  0.600000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1928E-01   OSCILLATION LIMIT = 0.1157E-02
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 3 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 4 OF 5 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  4.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       5.375   TIME= 20:08:14
+ Material number 2 (used by element 4771) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       5.375   TIME= 20:08:14
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:14  NOV 17, 2021 CP=      5.391
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     4
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  4.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     4   SUBSTEP     1  COMPLETED.    CUM ITER =     41
+ *** TIME =   3.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1916E-01   OSCILLATION LIMIT = 0.1916E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000E-01  UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     2  COMPLETED.    CUM ITER =     42
+ *** TIME =   3.02000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1905E-01   OSCILLATION LIMIT = 0.1905E-03
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     4   SUBSTEP     3  COMPLETED.    CUM ITER =     43
+ *** TIME =   3.05000         TIME INC =  0.300000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1872E-01   OSCILLATION LIMIT = 0.5616E-03
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.90000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     4   SUBSTEP     4  COMPLETED.    CUM ITER =     44
+ *** TIME =   3.14000         TIME INC =  0.900000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1784E-01   OSCILLATION LIMIT = 0.1606E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.1111)
+
+ *** LOAD STEP     4   SUBSTEP     5  COMPLETED.    CUM ITER =     45
+ *** TIME =   3.24000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1699E-01   OSCILLATION LIMIT = 0.1699E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     6  COMPLETED.    CUM ITER =     46
+ *** TIME =   3.34000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1625E-01   OSCILLATION LIMIT = 0.1625E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     7  COMPLETED.    CUM ITER =     47
+ *** TIME =   3.44000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1560E-01   OSCILLATION LIMIT = 0.1560E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     8  COMPLETED.    CUM ITER =     48
+ *** TIME =   3.54000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1502E-01   OSCILLATION LIMIT = 0.1502E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP     9  COMPLETED.    CUM ITER =     49
+ *** TIME =   3.64000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1451E-01   OSCILLATION LIMIT = 0.1451E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    10  COMPLETED.    CUM ITER =     50
+ *** TIME =   3.74000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1404E-01   OSCILLATION LIMIT = 0.1404E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    11  COMPLETED.    CUM ITER =     51
+ *** TIME =   3.84000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1361E-01   OSCILLATION LIMIT = 0.1361E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     4   SUBSTEP    12  COMPLETED.    CUM ITER =     52
+ *** TIME =   3.94000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1322E-01   OSCILLATION LIMIT = 0.1322E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.60000E-01  DECREASED (FACTOR = 0.6000)
+
+ *** LOAD STEP     4   SUBSTEP    13  COMPLETED.    CUM ITER =     53
+ *** TIME =   4.00000         TIME INC =  0.600000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1300E-01   OSCILLATION LIMIT = 0.7800E-03
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 4 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 5 OF 5 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE     100 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE     10 SUBSTEPS AS A MINIMUM
+
+ TIME=  5.0000    
+
+ INCLUDE TRANSIENT EFFECTS FOR  ALL DEGREES OF FREEDOM THIS LOAD STEP
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-05
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       6.922   TIME= 20:08:16
+ Material number 2 (used by element 4771) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       6.938   TIME= 20:08:16
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Proje 
+ ct 2 ANSYS\_ProjectScratch\ScrC498\file0.err ) for these warning        
+ messages.                                                               
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:16  NOV 17, 2021 CP=      6.938
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     5
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  5.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .   100
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .   YES
+   TRANSIENT (INERTIA) EFFECTS
+      THERMAL DOFS . . . . . . . . . . . . . . . .    ON
+   TRANSIENT INTEGRATION PARAMETERS
+      THETA. . . . . . . . . . . . . . . . . . . .  1.0000    
+      OSCILLATION LIMIT CRITERION. . . . . . . . . 0.50000    
+      TOLERANCE. . . . . . . . . . . . . . . . . .  0.0000    
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** LOAD STEP     5   SUBSTEP     1  COMPLETED.    CUM ITER =     54
+ *** TIME =   4.01000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1296E-01   OSCILLATION LIMIT = 0.1296E-03
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000E-01  UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP     2  COMPLETED.    CUM ITER =     55
+ *** TIME =   4.02000         TIME INC =  0.100000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1293E-01   OSCILLATION LIMIT = 0.1293E-03
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     5   SUBSTEP     3  COMPLETED.    CUM ITER =     56
+ *** TIME =   4.05000         TIME INC =  0.300000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1282E-01   OSCILLATION LIMIT = 0.3847E-03
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.90000E-01  INCREASED (FACTOR = 3.0000)
+
+ *** LOAD STEP     5   SUBSTEP     4  COMPLETED.    CUM ITER =     57
+ *** TIME =   4.14000         TIME INC =  0.900000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1252E-01   OSCILLATION LIMIT = 0.1127E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.10000      INCREASED (FACTOR = 1.1111)
+
+ *** LOAD STEP     5   SUBSTEP     5  COMPLETED.    CUM ITER =     58
+ *** TIME =   4.24000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1221E-01   OSCILLATION LIMIT = 0.1221E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP     6  COMPLETED.    CUM ITER =     59
+ *** TIME =   4.34000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1192E-01   OSCILLATION LIMIT = 0.1192E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP     7  COMPLETED.    CUM ITER =     60
+ *** TIME =   4.44000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1164E-01   OSCILLATION LIMIT = 0.1164E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP     8  COMPLETED.    CUM ITER =     61
+ *** TIME =   4.54000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1138E-01   OSCILLATION LIMIT = 0.1138E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP     9  COMPLETED.    CUM ITER =     62
+ *** TIME =   4.64000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1113E-01   OSCILLATION LIMIT = 0.1113E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP    10  COMPLETED.    CUM ITER =     63
+ *** TIME =   4.74000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1090E-01   OSCILLATION LIMIT = 0.1090E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP    11  COMPLETED.    CUM ITER =     64
+ *** TIME =   4.84000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1067E-01   OSCILLATION LIMIT = 0.1067E-02
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10000      UNCHANGED
+
+ *** LOAD STEP     5   SUBSTEP    12  COMPLETED.    CUM ITER =     65
+ *** TIME =   4.94000         TIME INC =  0.100000      NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1046E-01   OSCILLATION LIMIT = 0.1046E-02
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.60000E-01  DECREASED (FACTOR = 0.6000)
+
+ *** LOAD STEP     5   SUBSTEP    13  COMPLETED.    CUM ITER =     66
+ *** TIME =   5.00000         TIME INC =  0.600000E-01  NEW TRIANG MATRIX
+ *** RESPONSE EIGENVALUE = 0.1033E-01   OSCILLATION LIMIT = 0.6198E-03
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 5 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.1380556    
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         8.984
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise Academic Student      
+
+ 00000000  VERSION=WINDOWS x64   20:08:18  NOV 17, 2021 CP=      9.000
+
+ Project2--Transient Thermal (E5)                                              
+
+
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       9.000   TIME= 20:08:18
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =         9.000
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.1383333    
+
+ PARAMETER _PREPTIME =     1.000000000    
+
+ PARAMETER _SOLVTIME =     8.000000000    
+
+ PARAMETER _POSTTIME =     1.000000000    
+
+ PARAMETER _TOTALTIM =     10.00000000    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.00116099    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.631158400    
+
+ *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
+
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  5914.00000    
+ --- Total number of nodes = 5914
+ --- Total number of elements = 5168
+ --- Element load balance ratio = 1.00116099
+ --- Time to combine distributed files = 0.6311584
+ --- Sparse memory mode = 2
+ --- Number of DOF = 5914
+
+ EXIT ANSYS WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          7
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: 2021 R2            Build: 21.2       Update: UP20210601   Platform: WINDOWS x64 
+Date Run: 11/17/2021   Time: 20:08     Process ID: 17208
+Operating System: Windows 10  (Build: 19042)
+
+Processor Model: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) C/C++ Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
+          BLAS Library supplied by Intel(R) MKL
+
+Number of machines requested            :    1
+Total number of cores available         :    8
+Number of physical cores available      :    4
+Number of processes requested           :    2
+Number of threads per process requested :    1
+Total number of cores requested         :    2 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2019 Update 9 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             TABLET-17H11TB3   C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\_ProjectScratch\ScrC498
+     1             TABLET-17H11TB3   C:\Users\dmkim\PycharmProjects\DesignOptimization2021Fall\Project\Project 2 ANSYS\_ProjectScratch\ScrC498
+ 
+Latency time from master to core     1 =    2.733 microseconds
+ 
+Communication speed from master to core     1 =  6462.66 MB/sec
+
+Total CPU time for main thread                    :        9.3 seconds
+Total CPU time summed for all threads             :        9.4 seconds
+
+Elapsed time spent obtaining a license            :        7.5 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.1 seconds
+Elapsed time spent solution - preprocessing       :        0.2 seconds
+Elapsed time spent computing solution             :        8.3 seconds
+Elapsed time spent solution - postprocessing      :        0.6 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :        5.0 Gflops
+
+Maximum total memory used                         :      303.0 MB
+Maximum total memory allocated                    :     3136.0 MB
+Total physical memory available                   :         16 GB
+
+Total amount of I/O written to disk               :        0.1 GB
+Total amount of I/O read from disk                :        0.1 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2021 R2               Build 21.2         UP20210601     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used       6 MB    Maximum Scratch Memory Used    149 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          9.422       Time  =  20:08:18        |
+ |        Elapsed Time (sec) =         18.000       Date  =  11/17/2021      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

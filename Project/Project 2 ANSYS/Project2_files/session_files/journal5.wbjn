@@ -1,0 +1,143 @@
+# encoding: utf-8
+# 2021 R2
+SetScriptVersion(Version="21.2.209")
+system1 = GetSystem(Name="RSR")
+responseSurface1 = system1.GetContainer(ComponentName="Response Surface")
+responseSurfaceModel1 = responseSurface1.GetModel()
+responseSurfaceModel1.NumberVerificationPoints = 4
+responseSurfaceComponent1 = system1.GetComponent(Name="Response Surface")
+responseSurfaceComponent1.Update(AllDependencies=True)
+designofExperiment1 = system1.GetContainer(ComponentName="Design of Experiment")
+dOEModel1 = designofExperiment1.GetModel()
+dOEModel1.MethodName = "ANSYS_CCD"
+dOEModel1.MethodName = "ANSYS_LHS"
+lHSDMethod1 = dOEModel1.Method
+lHSDMethod1.SampType = "SFD_USER"
+lHSDMethod1.NumSamp = 20
+lHSDMethod1.NumSamp = 30
+responseSurfaceModel1.NumberVerificationPoints = 7
+designofExperimentComponent1 = system1.GetComponent(Name="Design of Experiment")
+designofExperimentComponent1.Update(AllDependencies=True)
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_SRS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_KRIGING"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_MARS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_SPARSEGRID"
+responseSurfaceModel1.FittingType = "FITTINGTYPE_GRS"
+responseSurfaceModel1.FittingType = "FITTINGTYPE_NN"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_GRS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_MARS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_KRIGING"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_MARS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_NN"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_KRIGING"
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.FittingType = "FITTINGTYPE_GRS"
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1 = responseSurfaceModel1.GetParametricTable(Name="DesignPoints")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=0,
+    ColumnIndex=0,
+    Value="15.027104624314234 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=0,
+    ColumnIndex=1,
+    Value="124.34352368069813 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=0,
+    ColumnIndex=2,
+    Value="88.958480366505682 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=1,
+    ColumnIndex=0,
+    Value="15.185224529122934 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=1,
+    ColumnIndex=1,
+    Value="144.05724849319085 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=1,
+    ColumnIndex=2,
+    Value="89.8459945851937 [mm]")
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=2,
+    ColumnIndex=0,
+    Value="20.038229987258092 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=2,
+    ColumnIndex=1,
+    Value="124.00508795352653 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=2,
+    ColumnIndex=2,
+    Value="66.467347749508917 [mm]")
+responseSurfaceComponent1.Update(AllDependencies=True)
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=3,
+    ColumnIndex=0,
+    Value="24.816661364166066 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=3,
+    ColumnIndex=1,
+    Value="125.14221042348072 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=3,
+    ColumnIndex=2,
+    Value="80.006821925751865 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=4,
+    ColumnIndex=0,
+    Value="15.238954507512972 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=4,
+    ColumnIndex=1,
+    Value="159.38161690859124 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=4,
+    ColumnIndex=2,
+    Value="83.584541332907975 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=5,
+    ColumnIndex=0,
+    Value="24.816661364166066 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=5,
+    ColumnIndex=1,
+    Value="125.14221042348072 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=5,
+    ColumnIndex=2,
+    Value="80.006821925751865 [mm]")
+parametricTable1.AddRow()
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=0,
+    Value="15.370666204253212 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=1,
+    Value="159.93940306873992 [mm]")
+parametricTable1.SetCellValue(
+    RowIndex=6,
+    ColumnIndex=2,
+    Value="67.140597137622535 [mm]")
+responseSurfaceComponent1.Update(AllDependencies=True)
+responseSurfaceModel1.NumberVerificationPoints = 10
+responseSurfaceComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
