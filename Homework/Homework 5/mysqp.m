@@ -23,13 +23,13 @@ function solution = mysqp(f, df, g, dg, x0, opt)
     while gnorm>opt.eps % if not terminated
         
         % Implement QP problem and solve
-        if strcmp(opt.alg, 'myqp')
+        if strcmp(opt.alg, 'myqp') 
             % Solve the QP subproblem to find s and mu (using your own method)
             [s, mu_new] = solveqp(x, W, df, g, dg);
-        else
+        else % matlabqp
             % Solve the QP subproblem to find s and mu (using MATLAB's solver)
             qpalg = optimset('Algorithm', 'active-set', 'Display', 'off');
-            [s,~,~,~,lambda] = quadprog(W,[df(x)]',dg(x),-g(x),[], [], [], [], [],  qpalg);
+            [s,~,~,~,lambda] = quadprog(W,[df(x)]',dg(x),-g(x),[], [], [], [], x0,  qpalg);
             mu_new = lambda.ineqlin;
         end
         
@@ -65,7 +65,7 @@ function solution = mysqp(f, df, g, dg, x0, opt)
         mu_old = mu_new;
 
         % save current solution to solution.x
-        solution.x = [solution.x, x]; 
+        solution.x = [solution.x, x];
     end
 end
 

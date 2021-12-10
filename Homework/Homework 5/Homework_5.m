@@ -45,7 +45,7 @@ end
 solution = mysqp(f, df, g, dg, x0, opt);
 
 %% Report
-report(solution,f,g);
+% report(solution,f,g);
 
 
  
