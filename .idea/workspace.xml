@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="">
+    <list default="true" id="90befb2b-d06c-4fc3-94db-3ebf443ded38" name="Changes" comment="Completed Project 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework 5/Homework_5.asv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework 5/mysqp.m" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework 5/mysqp.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Project 1 gradient based algorithms and differentiable programming.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project 1 gradient based algorithms and differentiable programming.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639170382040</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Finalized Project 1">
+      <created>1639196363636</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1639196363636</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Finalized Project 1">
+      <created>1639291546102</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1639291546102</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +309,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pulled the sample code for HW 2" />
     <MESSAGE value="Modified the sample code to work with a 2 dimensional case" />
     <MESSAGE value="Completed most of coding for 2" />
     <MESSAGE value="Fixed log error for 2" />
@@ -317,6 +333,7 @@
     <MESSAGE value="Completed Problem 4" />
     <MESSAGE value="Project 2 Completed" />
     <MESSAGE value="Added plots to track action state over time steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plots to track action state over time steps" />
+    <MESSAGE value="Completed Project 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Project 3" />
   </component>
 </project>
